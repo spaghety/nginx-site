@@ -4,7 +4,6 @@ services:
         environment:
             - VIRTUAL_HOST=nginx.pajordan.com
             - LETSENCRYPT_HOST=nginx.pajordan.com
-            - "true"
         networks:
             - net
         image: nginx:latest
